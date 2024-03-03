@@ -841,9 +841,15 @@
 
 
 /* medium device */
+@media screen and (max-width: 450px) {
+  .footer__data{
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+}
 
+@media screen and (min-width: 450px){
 
-/* @media screen and (min-width: 450px){
     .featured__card{
         width: 290px;
     }
@@ -855,7 +861,12 @@
     .testimonial__card{
         width: 320px;
     }
-} */
+
+    .footer__data{
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+  }
+}
 
 @media screen and (min-width:580px){
     .search__form{
